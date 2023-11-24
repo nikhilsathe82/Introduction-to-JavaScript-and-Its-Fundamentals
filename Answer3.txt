@@ -1,0 +1,33 @@
+Data types are nothing but categories of data that can computer can process. There are two types of data types in Javascript, that is primitive and non-primitive data types.
+
+5 different Primitive Data Types are:
+Primitive data types are basic forms of data types which allows you to store different types of data like numbers, string, boolean, big integer numbers etc.
+Primitive data types are immutable that is you cannot alter their primitive values. you can reassign new values to variables created with primitive data types but 
+you cannot alter their original values.
+
+1. Number
+You can store number or decimal form of data like 10, 30, 50. Various decimal forms of data that can be stored include 5.24, 6.5 etc.
+
+syntax
+var x = 10;
+
+2. String
+Allows you to store string type or characters data in a variable. for example, "Nikhil", 'Javascript'. Even if you mention numbers in quotes then those 
+will be considered as string. For example "6" will be considered as string type data.
+
+var name= "Nikhil"
+
+3. Boolean
+Allows you to store only two types of values like true or false. They have got vareity of uses in Javascript like to indicate whether a value condition is yes or no.
+
+var boolean = true;
+
+4. Null 
+Allows you to store a value that indicates absense of any value. 
+
+var name = null;
+
+5. Undefined
+Undefined data type is assigned to those variables that have been declared but no value is assigned to it.
+
+var x; // x is declared but value is not assigned, hence it will have undefined data type.

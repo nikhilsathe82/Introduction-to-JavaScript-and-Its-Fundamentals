@@ -1,0 +1,18 @@
+Explain the key differences between JavaScript and HTML. Provide examples of situations where
+you would use each.
+
+Answer
+Javascript:
+Javascript is a programming language that is used to make the web pages interactive. It is used to manipulate the Document Object Model (DOM)
+of the web page that makes the website dynamic and interactive. Javascript runs on the client side thus making it the most preferred language to run on the web. You can 
+embed javascript inside HTML.
+I would use Javascript to make the HTML page interactive. For example: if i have placed a button in my html code then i will use Javascript to write an event listener 
+code to execute a function if someone clicks on that button.
+
+HTML:
+HTML stands for Hypertext Markup Language is a markup language that helps to build the basic building blocks of the web page. It is used to define various elements of
+a web page through the use of various tags and attributes that gives a definite structure to the web page. Unlike Javascript, HTML is used to create basic static web sites
+without interactivity. It requires a web browser to render it.
+I can use HTML to put a button or paragraph or headings in different style on the web page.
+
+

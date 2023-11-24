@@ -1,0 +1,13 @@
+
+The main purpose of declaring variables is to reserver some memory for any variable and assign some value to it. You must give a name to the variable and the type 
+of data that will be stored in it.
+
+The data type indicates what type of data you will be storing in the variable. Different ways to declare variables in javascript are by using let, const, and var
+keywords.
+
+Using let keyword you can declare variables that are block scope.
+
+syntax:
+
+let x = "Nikhil";
+let x = 56;

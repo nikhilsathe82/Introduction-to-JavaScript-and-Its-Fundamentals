@@ -1,0 +1,30 @@
+Explain the importance of choosing meaningful and descriptive variable names in JavaScript
+
+Answer:
+
+It is very essential to give meaningful, proper, and descriptive names to variables in javascript for variety of reasons. 
+
+Giving proper names makes it easier to understand the real intent for which you will be using the variable. Giving a proper variable name which is easier to understand
+ensures that you can quickly grasp for what the variable will be used for. For example, a variable like customerName portrays that name of the customer will be stored
+in that. Naming the variable in easy to understand manner proves helpful when storing the data in large databases where huge number of variables are being used.
+
+Meaning variables names also increases the readability of the code as code becomes easier to understand quickly.
+
+Naming the code in meaningful manner also helps you avoid making errors. For example, If you name 'a' variable z to hold a customer name and if you use this variable
+'a' across multiples places. As your application expands, you will use this variable at multiple places and it is difficult to track for what purpose the code was used.
+Instead if you use "customerName" as variable, it is easier to understand.
+
+For example:
+
+consider below example where we multiply a number by 2 and store the value in result. We do it by calling a function named multiplyByFive.
+
+var number = 5;
+
+function multiplyByFive(number){
+ var result = number *5;
+
+ console.log(`${number} multiplied by 5 is ${result}`);
+
+};
+
+multiplyByFive(6);
